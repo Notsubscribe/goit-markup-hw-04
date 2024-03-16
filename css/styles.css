@@ -47,7 +47,7 @@ display: block;
 .first-hml {
 position: relative;
 color: #404bbf;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-hml::after {
@@ -163,7 +163,7 @@ font-weight: 400;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-section {
- background-color: #2e2f42;
+
 padding: 188px 0;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.png);
     background-size: cover;
@@ -173,7 +173,7 @@ background-position: center;
 background-size: cover;
 position: relative;
 max-width: 1440px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -221,6 +221,20 @@ background-color: #404BBF
 .features {
 
 }
+.features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+
+}
+
+
+
 
  .visually-hidden {
  
@@ -294,7 +308,8 @@ gap: 24px;
     background-color: #fff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: rgba(0, 0, 0, 0.034);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66,0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-subtitle {
@@ -436,8 +451,53 @@ display: inline-block;
         font-family: "Raleway", sans-serif;
         margin-bottom: 16px;
 }
+.social-media-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+
+}
+.social-media-list {
+    display: flex;
+    gap: 16px;
+
+}
+.social-media-item {
+    width: 40px;
+    height: 40px;
+
+}
+.footer-link-icons {
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.footer-link-icons:hover, {
+background-color: #31d0aa;
+
+}
+.footer-link-icons:focus {
+background-color: #31d0aa;
+}
+.footer-social-svg {
+    fill:#f4f4fd;
+}
 .footer-container {
-    
+    display: flex;
+    align-items: baseline;
+
+}
+.div-social-media {
+    margin-right: 120px;
 }
 a {
     text-decoration: none;
