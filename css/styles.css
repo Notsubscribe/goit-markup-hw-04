@@ -44,7 +44,7 @@ display: block;
     justify-content: space-between;
     
 }
-.first-hml {
+.header-menu-link .first-hml {
 position: relative;
 color: #404bbf;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -337,7 +337,7 @@ font-weight: 500;
 .team-icons-item {
     width: 40px;
     height: 40px;
-    padding-top: 8px;
+    
 }
 
 .team-text {
@@ -347,6 +347,7 @@ font-weight: 400;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
     
 }
 .team-icons-link {
