@@ -44,10 +44,10 @@ display: block;
     justify-content: space-between;
     
 }
-.header-menu-link .first-hml {
-position: relative;
-color: #404bbf;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.first-hml {
+position: relative; !important;
+color: #404bbf; !important;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); !important;
 }
 
 .first-hml::after {
