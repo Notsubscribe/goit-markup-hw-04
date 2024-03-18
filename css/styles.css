@@ -44,11 +44,7 @@ display: block;
     justify-content: space-between;
     
 }
-.first-hml {
-position: relative; !important;
-color: #404bbf; !important;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); !important;
-}
+
 
 .first-hml::after {
     content: '';
@@ -139,6 +135,11 @@ font-weight: 500;
 }
 .header-menu-link:hover:focus {
     color: #404bbf
+}
+.first-hml {
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
